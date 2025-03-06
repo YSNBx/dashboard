@@ -223,7 +223,7 @@ main {
 
 .card {
 	display: grid;
-	grid-template: repeat(auto-fit(100px, 1fr)) / 1fr;
+	grid-template: repeat(auto-fill, minmax(50px, 1fr)) / 1fr;
 	row-gap: 1rem;
 	padding: 2rem 2rem;
 	background-color: white;
